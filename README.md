@@ -1,14 +1,20 @@
 # The origin of this name?
 I named it KitKat because it is about the same length as KitKat chocolate and it is sandwiched in several layers 😋
-![image](https://user-images.githubusercontent.com/37788769/175882212-b99b357b-c2cd-4852-9d7b-f4d07c635b1f.png) 
-![image](https://user-images.githubusercontent.com/37788769/175882220-05b0c4bf-8bfd-457a-954f-60cb350c202b.png) 
+![image](https://user-images.githubusercontent.com/37788769/176615883-141db5df-e704-4f8f-a503-d3c49744e570.png) 
+The gray part is QMC5883L, I don't want to build a 3D model, so just placeholders 
+![image](https://user-images.githubusercontent.com/37788769/176615932-cb93bc94-fdd4-4eda-8845-645e4d482706.png)
 ![image](https://user-images.githubusercontent.com/37788769/175882564-236074f2-4ecf-44c6-ab9f-efa88afb0e19.png)
 # What sensor does it work with?
 It is a tracker composed of mpu6500/mpu6050 and QMC5883L. Compared with only mpu6500/6050, its actual experience is much better with QMC, and it is cheaper than 9250. 
  
-Other than that it uses PH 2.00 as an aux to connect the secondary sensor (I think it's more suitable for just tracking the position of the instep, the cable doesn't need to be too long, and it will be light as there is no esp, battery, etc. 
-![image](https://user-images.githubusercontent.com/37788769/175883807-7f8cc580-c149-4da2-8f6c-92ce801b5ae9.png)
+Other than that it uses PH 2.00 as an aux to connect the secondary sensor (I think it's more suitable for just tracking the position of the instep, the cable doesn't need to be too long, and it will be light as there is no esp, battery, etc.  
+![image](https://user-images.githubusercontent.com/37788769/176616093-7053c3cd-cdb7-4222-a433-954cb86d1901.png)  
+The gray part is QMC5883L, I don't want to build a 3D model, so just placeholders 
 ![image](https://user-images.githubusercontent.com/37788769/175883836-a7ae1109-5f86-44c5-b5be-331b3c5cd3e3.png)
+ 
+## The schematic is here, I only draw the part of QMC5883L, the others are from the official SlimeVR
+![d1_Base](https://user-images.githubusercontent.com/37788769/176617009-52f5a3f2-49fa-4567-9284-6277648262da.png) 
+The wiring of AUX is the same as the official MPU, only 4 wires are needed
  
 # what's special about it?
 It's just a PCB without any mouted device. Because it only has one side, it's great for those who don't have a soldering foundation diy SlimeVR tracker 
