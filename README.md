@@ -4,6 +4,9 @@ I named it KitKat because it is about the same length as KitKat chocolate and it
 The gray part is QMC5883L, I don't want to build a 3D model, so just placeholders 
 ![image](https://user-images.githubusercontent.com/37788769/176615932-cb93bc94-fdd4-4eda-8845-645e4d482706.png)
 ![image](https://user-images.githubusercontent.com/37788769/175882564-236074f2-4ecf-44c6-ab9f-efa88afb0e19.png)
+![FCF7D95A138C560C8013300327220CA0](https://user-images.githubusercontent.com/37788769/177047746-c2f204aa-4081-4439-8ee1-83c3fe9f7cdf.jpg)
+![9139F0F218FF18495DCF03BF3B3EC0CF](https://user-images.githubusercontent.com/37788769/177047751-75e1f617-b151-4b5c-ab10-33994a327379.jpg)
+
 # What sensor does it work with?
 It is a tracker composed of mpu6500/mpu6050 and QMC5883L. Compared with only mpu6500/6050, its actual experience is much better with QMC, and it is cheaper than 9250. 
  
